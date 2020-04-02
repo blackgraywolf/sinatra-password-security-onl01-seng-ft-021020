@@ -44,7 +44,11 @@ post "/login" do
 end
 
 	get "/success" do
+<<<<<<< HEAD
 	   #binding.pry
+=======
+	   binding.pry
+>>>>>>> 563e7d8dae10f9cff5c17a5298a2e039265c7a40
 		if logged_in?
 			erb :success
 		else
